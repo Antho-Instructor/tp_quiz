@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Quiz JS</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>Quiz Culture JavaScript !</h1>
+		<div class="container-global">
+			<form class="form-quiz">
+
+				<div class="question-block">
+					<h2>JavaScript est standardisé par ?</h2>
+
+					<div>
+						<input type="radio" id="iso" name="q1" value="a"checked>
+						<label for="iso">l'ISO</label>
+					</div>
+
+					<div>
+						<input type="radio" id="mozilla" name="q1" value="b">
+						<label for="mozilla">Mozilla</label>
+					</div>
+
+					<div>
+						<input type="radio" id="ecma" name="q1" value="c">
+						<label for="ecma">l'Ecma</label>
+					</div>
+				</div>
+
+				<div class="question-block">
+					<h2>JavaScript est un langage ?</h2>
+					<div>
+						<input type="radio" id="interprete" name="q2" value="a" checked>
+						<label for="interprete">Interprété</label>
+					</div>
+
+					<div>
+						<input type="radio" id="compile" name="q2" value="b">
+						<label for="compile">Compilé</label>
+					</div>
+
+					<div>
+						<input type="radio" id="fonctionnel" name="q2" value="c">
+						<label for="fonctionnel">Fonctionnel</label>
+					</div>
+				</div>
+
+				<div class="question-block">
+					<h2>Dans une boucle <code>while</code>, il faut penser à ___ la valeur.</h2>
+					<div>
+						<input type="radio" id="recuperer" name="q3" value="a" checked>
+						<label for="recuperer">Récupérer</label>
+					</div>
+
+					<div>
+						<input type="radio" id="stocker" name="q3" value="b">
+						<label for="stocker">Stocker</label>
+					</div>
+
+					<div>
+						<input type="radio" id="incremeter" name="q3" value="c">
+						<label for="incremeter">Incrémeter</label>
+					</div>
+				</div>
+
+
+				<div class="question-block">
+					<h2>L'opérateur ternaire commence par le symbole ?</h2>
+
+					<div>
+						<input type="radio" id="deux-point" name="q4" value="a" checked>
+						<label for="deux-point">:</label>
+					</div>
+
+					<div>
+						<input type="radio" id="question" name="q4" value="b">
+						<label for="question">?</label>
+					</div>
+
+					<div>
+						<input type="radio" id="dollar" name="q4" value="c">
+						<label for="dollar">$</label>
+					</div>
+				</div>
+
+
+				<div class="question-block">
+					<h2>La syntaxe conditionnelle commence par if et peut contenir un ?</h2>
+					<div>
+						<input type="radio" id="r1" name="q5" value="a"
+							   checked>
+						<label for="r1">elseif</label>
+					</div>
+
+					<div>
+						<input type="radio" id="r2" name="q5" value="b">
+						<label for="r2">elif</label>
+					</div>
+
+					<div>
+						<input type="radio" id="r3" name="q5" value="c">
+						<label for="r3">else</label>
+					</div>
+				</div>
+
+				<button type="submit">Validez vos choix !</button>
+			</form>
+
+			<div class="resultats">
+				<h2>Cliquez sur valider pour voir les résultats.</h2>
+				<p class="aide"></p>
+				<p class="note"></p>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
